@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+</head>
+
+<body>
+    <div class="conteiner">
+        <h1 class="start-titel">Start game</h1>
+        <button class="start-btn">Start</button>
+    </div>
+    <div class="game-over">
+        <h1 class="end-titel">Game over</h1>
+    </div>
+    <div class="page-conteiner">
+        <div><canvas id="canvas"></canvas></div>
+        <div class="info-stuff">
+            <div class="meteorCount">
+                <h1><span id="count">0</span> : count</h1>
+                <h1><span id="record">0</span> : record</h1>
+            </div>
+            <div class="explain">
+                <h2>Hello there</h2>
+                <p>This game does not have any goal or level,<br> just try breaking your old record and have fun.</p>
+                <p>You only need three keys to play this game. </p>
+                <div class='btn-conteiner'> Use
+                    <button class="left-btn"><img src="img/right-arrow-svgrepo-com.svg" alt="left arrow" class="left-img"></button> to go left,</div>
+                <div class='btn-conteiner'>use
+                    <button class="right-btn"><img src="img/right-arrow-svgrepo-com.svg" class="right-img"></button> to go right and
+                </div>
+                <div class="btn-conteiner">
+                    use <button class="space-btn"><img src="img/space-bar-svgrepo-com.svg" class="space-img"></button> to shoot fire beams.
+                </div>
+            </div>
+        </div>
+    </div>
+    <img id="background" src="./img/Background_space.png">
+    <img src="./img/spaceship.png" id="spaceship-img">
+    <img src="img/beam.png" id="fire-beam">
+    <img src="img/Explosion.png" id="explosion">
+    <img src="img/planets/dryhotplanet.png" id="img-1">
+    <img src="img/planets/dryvenuslikeplanet.png" id="img-2">
+    <img src="img/planets/exoplanet.png" id="img-3">
+    <img src="img/planets/iceplanet.png" id="img-4">
+    <img src="img/planets/iceplanet_2.png" id="img-5">
+    <img src="img/planets/lava_planet.png" id="img-6">
+    <img src="img/planets/machine_world.png" id="img-7">
+    <img src="img/planets/moon.png" id="img-8">
+    <img src="img/planets/neptunlikeplanet.png" id="img-9">
+    <img src="img/planets/shattered_planet.png" id="img-10">
+    <img src="img/planets/sphereplanet.png" id="img-11">
+    <img src="img/planets/sun.png" id="img-12">
+    <script type="module" src="game.js"></script>
+
+</body>
+
+</html>
