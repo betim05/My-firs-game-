@@ -14,6 +14,7 @@ export class Bullets {
         this.sHeight = 29;
         this.sx = 15;
         this.sy = 0;
+        this.collisionShape = 'rect'
     }
     animation() {
         this.now = Date.now();

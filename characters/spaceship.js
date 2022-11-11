@@ -18,7 +18,7 @@ export default class Spaceship {
         this.sx = 0;
         this.sy = 0;
         this.makeMoreEnemys = false;
-
+        this.collisionShape = 'rect'
     }
     wallCollision() {
         if (this.x <= 0) {
