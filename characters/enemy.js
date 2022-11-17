@@ -16,6 +16,7 @@ export class Enemy {
             document.querySelector('#img-11'),
             document.querySelector('#img-12')
         ];
+        this.collisionShape = 'circle'
         this.explosion = document.querySelector('#explosion');
         this.removeEnemy = false;
         this.now = null;
